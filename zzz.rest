@@ -1,0 +1,41 @@
+# POST http://localhost:8000/auth/register/
+# Content-Type: application/json
+
+# {
+#     "name":"Samson Amos",
+#     "email":"v2dent@gmail.com",
+#     "password":"Chelsea24462!",
+#     "role":"Admin"
+# }
+
+
+# POST http://localhost:8000/auth/login/
+# Content-Type: application/json
+
+# {
+#     "email":"v2dent@gmail.com",
+#     "password":"Chelsea24462!"
+# }
+
+# GET http://localhost:8000/posts/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY3ODIxMjU3MiwiZXhwIjoxNjc4MjE1ODcyfQ.Td7gPXAnqs8n3d244dVFRKkQ8QUxgvzf3WCe_yWb7Qg
+
+# POST http://localhost:8000/posts/
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY3ODIxMjI4NiwiZXhwIjoxNjc4MjEzMTg2fQ.yUJ4tx5a900yQND279uXOrsJAFnkcAwpuA2KqXf_2-c
+
+# {
+#     "title":"Django",
+#     "content":"Its a hell of a framework"
+# }
+
+# DELETE  http://localhost:8000/posts/1/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY3ODIxMjkxMiwiZXhwIjoxNjc4MjE2MjEyfQ.hgnlbDBOwqup4YMgu2CtvACZ01DAYPYPqsD-F893df4
+
+# POST http://localhost:8000/posts/2/comments/
+# Content-Type: application/json
+
+# {
+#     "content":"Hello",
+
+# }
